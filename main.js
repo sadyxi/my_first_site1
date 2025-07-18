@@ -6,6 +6,6 @@ document.getElementById("message").innerText = "がんばってるね、さで�
 }
 function showDateTime(){
     const now = new Date();
-    const formatted = now.toLocaleDateString();
+    const formatted = now.toLocaleString();
     document.getElementById("datetime").innerText = formatted;
 }
