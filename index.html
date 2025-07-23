@@ -48,6 +48,28 @@
 <!-- 表示エリア -->
 <p id="greetingMessage"></p>
 
+<button onclick="toggleProfile()">プロフィール表示/非表示</button>
+
+<div id="profileBox" style="display: none;">
+  <p>名前：さでぃー</p>
+  <p>職業：エンジニア志望</p>
+</div>
+<button onclick="changeContent()">内容を切り替える</button>
+
+<div id="contentBox">
+  <p>これは最初のコンテンツです。</p>
+</div>
+<button onclick="showSkills()">スキルを表示</button>
+<ul id="skillsList"></ul>
+
+<button onclick="showProjects()">プロジェクト一覧表示</button>
+<ul id="projectList"></ul>
+
+<input type="text" id="savedNameInput" placeholder="名前を入力して保存">
+<button onclick="saveName()">保存する</button>
+
+<p id="savedNameMessage">ここに保存された名前が出ます</p>
+
 <script src="main.js"></script>
 </body>
 </html>  
