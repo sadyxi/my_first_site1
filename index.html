@@ -34,12 +34,20 @@
   <p>&copy; 2025さでぃー。のページ</p>
 </footer>
 <button onclick="sayHello()">クリックしてね</button>
-<script src="main.js"></script>
+
 <p id="message">ここにメッセージが出ます</p>
 <button onclick="showMessage()">メッセージを表示</button>
-<script src="main.js"></script>
+
 <p id="datetime">ここに日付と時間が出ます</p>
 <button onclick="showDateTime()">日付と時間を表示</button>
+
+<!-- 名前入力フォーム-->
+<input type="text" id="nameInput" placeholder="あなたの名前を入力してください"/>
+<button onclick="greetUser()">あいさつする</button>
+
+<!-- 表示エリア -->
+<p id="greetingMessage"></p>
+
 <script src="main.js"></script>
 </body>
 </html>  

@@ -9,3 +9,9 @@ function showDateTime(){
     const formatted = now.toLocaleString();
     document.getElementById("datetime").innerText = formatted;
 }
+function greetUser(){
+    console.log("greetUser関数が呼び出されました"); 
+   const name = document.getElementById("nameInput").value;
+   const message = `こんにちは、${name}さん！`;
+   document.getElementById("greetingMessage").innerText = message; 
+}
